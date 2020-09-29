@@ -46,6 +46,9 @@
 /* DIP switch support */
 #define DIP_SWITCH_PINS { B14, A15, A0, B9 }
 
+/* Audio */
+#define MUSIC_MAP
+
 /* RGB matrix configuration */
 #define RGB_DI_PIN A1
 #define DRIVER_LED_TOTAL 48 /* TODO depends on layout */

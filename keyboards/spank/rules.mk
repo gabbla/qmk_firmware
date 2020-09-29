@@ -22,7 +22,7 @@ UNICODE_ENABLE = no          # Unicode
 BLUETOOTH_ENABLE = no        # Enable Bluetooth with the Adafruit EZ-Key HID
 ENCODER_ENABLE = no          # Enable the encoder
 DIP_SWITCH_ENABLE = no       # Enable the use of DIP switch
-#RGBLIGHT_ENABLE = yes        # Enable WS2812 RGB underlight.
+RGBLIGHT_ENABLE = yes        # Enable WS2812 RGB underlight.
 #WS2812_DRIVER = pwm
 
 
