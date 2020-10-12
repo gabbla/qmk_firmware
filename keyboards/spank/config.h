@@ -51,6 +51,6 @@
 
 /* RGB matrix configuration */
 #define RGB_DI_PIN A1
-#define DRIVER_LED_TOTAL 48 /* TODO depends on layout */
+#define DRIVER_LED_TOTAL 57
 
 #endif /* end of include guard: CONFIG_SPANK */

@@ -5,17 +5,20 @@
 led_config_t g_led_config = {
     /* Key Matrix to LED Index */
     {
-        {9,10,11,12,13,14},
-        {15,16,17,18,19,20},
-        {21,22,23,24,25,26},
-        {27,28,29,30,31,32},
-        {33,34,35,36,37,38},
-        {39,40,41,42,43,44},
-        {45,46,47,48,49,50},
-        {51,52,53,54,55,56}
+        { 9, 10, 11, 12, 13, 14},
+        {16, 17, 18, 19, 20, 21},
+        {23, 24, 25, 26, 27, 28},
+        {30, 31, 32, 33, 34, 35},
+        {37, 38, 39, 40, 41, 42},
+        {44, 45, 46, 47, 48, 49},
+        {51, 52, 53, 54, 55, 56},
+        {58, 59, 60, 61, 62, 63},
     },
     /* LED Index to Physical Position */
     {
+        {0, 0},  {44, 0},  {88, 0},  {132, 0},  {176, 0},  {220, 0},
+        {0, 0},  {44, 0},
+
         {0, 0},  {44, 0},  {88, 0},  {132, 0},  {176, 0},  {220, 0},
         {0, 9},  {44, 9},  {88, 9},  {132, 9},  {176, 9},  {220, 9},
         {0, 18}, {44, 18}, {88, 18}, {132, 18}, {176, 18}, {220, 18},
@@ -27,14 +30,13 @@ led_config_t g_led_config = {
     },
     /* LED Index to Flag */
     {
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT,
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT,
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT,
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT,
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT,
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT,
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT,
-        LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT, LED_FLAG_KEYLIGHT
+        /* Underglow */
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 
+        /* Matrix */
+        1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1,
+        1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1,
+        1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 
     }
 };
 /* clang-format on */
