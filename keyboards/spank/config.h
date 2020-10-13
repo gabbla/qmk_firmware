@@ -53,4 +53,8 @@
 #define RGB_DI_PIN A1
 #define DRIVER_LED_TOTAL 57
 
+/* Effects */
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define RGB_MATRIX_KEYPRESSES
+
 #endif /* end of include guard: CONFIG_SPANK */
